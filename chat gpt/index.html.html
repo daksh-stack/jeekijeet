@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .subject-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .subject-card {
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+            background-color: #f1f1f1;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .subject-card:hover {
+            transform: scale(1.05);
+        }
+
+        .subject-card h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Services</h1>
+    </header>
+    <nav>
+        <a href="#physics">Physics</a>
+        <a href="#maths">Maths</a>
+        <a href="#chemistry">Chemistry</a>
+    </nav>
+    <main>
+        <section id="physics">
+            <h2>Physics</h2>
+            <div class="subject-container">
+                <div class="subject-card">
+                    <h2>Physics Tutorial 1</h2>
+                    <p>Learn the basics of physics with interactive examples and exercises.</p>
+                    <a href="#">Start Tutorial</a>
+                </div>
+                <div class="subject-card">
+                    <h2>Physics Quiz</h2>
+                    <p>Test your knowledge with our physics quiz and improve your understanding.</p>
+                    <a href="#">Take Quiz</a>
+                </div>
+            </div>
+        </section>
+        <section id="maths">
+            <h2>Maths</h2>
+            <div class="subject-container">
+                <div class="subject-card">
+                    <h2>Maths Tutorial 1</h2>
+                    <p>Learn the basics of maths with interactive examples and exercises.</p>
+                    <a href="#">Start Tutorial</a>
+                </div>
+                <div class="subject-card">
+                    <h2>Maths Quiz</h2>
+                    <p>Test your knowledge with our maths quiz and improve your problem-solving skills.</p>
+                    <a href="#">Take Quiz</a>
+                </div>
+            </div>
+        </section>
+        <section id="chemistry">
+            <h2>Chemistry</h2>
+            <div class="subject-container">
+                <div class="subject-card">
+                    <h2>Chemistry Tutorial 1</h2>
+                    <p>Learn the basics of chemistry with interactive examples and exercises.</p>
+                    <a href="#">Start Tutorial</a>
+                </div>
+                <div class="subject-card">
+                    <h2>Chemistry Quiz</h2>
+                    <p>Test your knowledge with our chemistry quiz and improve your understanding of chemical concepts.</p>
+                    <a href="#">Take Quiz</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
